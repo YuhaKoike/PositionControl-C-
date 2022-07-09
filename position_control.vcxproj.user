@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <RESOURCE_FILE>positioncontrol.rc</RESOURCE_FILE>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerEnvironment>PATH=C:\opencv-4.1.0\build\x64\vc15\bin;C:\Program Files\Point Grey Research\Spinnaker\bin64\vs2015;H:\00_Class\10_Software\Program\FLIR\FLIR Camera\bin64\vs2015;C:\Program Files (x86)\Interface\GPC3300\bin;H:\00_Class\10_Software\Program\DAbord\dll;%PATH%
+$(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerEnvironment>PATH=C:\opencv-4.1.0\build\x64\vc15\bin;C:\Program Files\FLIR Systems\Spinnaker\bin64\vs2015;C:\Program Files (x86)\Interface\GPC3300\bin;H:\00_Class\10_Software\Program\DAbord\dll;H:\00_Class\10_Software\Library files\FLIR\bin64\vs2015;H:\00_Class\10_Software\Library files\Interface\GPC3300\bin;H:\00_Class\10_Software\Library files\opencv\opencv-4.1.0\build\x64\vc15\bin;%PATH%
+$(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
